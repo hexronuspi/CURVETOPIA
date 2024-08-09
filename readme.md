@@ -1,0 +1,37 @@
+# Adobe GenSolve 2024 Round 2
+
+This repository contains the codebase for **Adobe GenSolve 2024 Round 2**.
+
+**Team:**
+- **Sakshi Kumari**
+- **Aditya Raj**  (Team Lead)
+
+Email (Team Lead): adityar.ug22.ec@nitp.ac.in
+
+## Directory Structure 
+The project is organized into the following directories:
+- **Detection/**
+  - **Genetics**
+  - **Pure Mathematics**
+  - **Triangulation Method**
+- **Regularisation**
+- **Symmetry**
+
+### 1. Symmetry Detection
+Developed a Python-based Bilateral Symmetry Detection System. Implemented keypoint detection using SIFT and descriptor matching with a Brute Force matcher to identify and visualize the symmetry axis in images. Processed and refined keypoint data through hexbin analysis and advanced mathematical transformations to calculate potential symmetry axes, resulting in an accurate symmetry line detection and visualization. 
+
+### 2. Shape Regularization
+Designed and implemented a Shape Regularization Pipeline in Python. Developed algorithms to classify and regularize geometric shapes polygons, rectangles, squares, circles, ellipses, and triangles, ensuring the shapes conform to predefined criteria. Employed advanced contour analysis techniques for shape detection and regularization, with visual outputs generated for original and regularized images. 
+
+### 3. Detection Techniques
+
+- **Genetics:**
+  A hybrid Genetic Algorithm-Neural Network model for shape classification, utilizing custom activation functions and gradient-based optimization. Implemented mutation, crossover, and selection techniques in a population-based algorithm, did not achieve significant reduction across epochs.
+
+- **Pure Mathematics:**
+  Detect and classify various shapes in an image, such as circles, ellipses, rectangles, squares, regular polygons, rounded rectangles, stars, and straight lines. The process involves contour detection, shape classification based on geometric properties.
+
+
+- **Triangulation Method:**
+  Developed a sophisticated shape detection and triangulation system using Python, leveraging OpenCV for image processing and Matplotlib for visualization. The system accurately identifies and classifies geometric shapes such as triangles, rectangles, circles, and polygons by analyzing contour properties like aspect ratios, convex hulls, and contour areas. Implemented custom algorithms to detect convex hulls and perform shape triangulation, enabling the precise visualization of detected shapes with annotated labels and triangulated segments. The edge detection and contour approximation techniques were optimized for high performance, allowing the system to handle large images efficiently. 
+
