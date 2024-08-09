@@ -1,6 +1,6 @@
 This codebase has detection algorithms, 
 
-The code uses pure mathematical analysis to detect and count the shapes present, The best performing model up until now. Even though this happens, all the three models `Genetic, Pure Mathematics, and Triangulation` Methods have their own accuracy in detecting shapes.
+All the three models `Genetic, Pure Mathematics, and Triangulation` Methods have their own accuracy in detecting shapes.
 
 - Genetic : Straight Line Shapes (Lines, Polygon, Rectangle)
 - Triangulation : Overlapping Curves
