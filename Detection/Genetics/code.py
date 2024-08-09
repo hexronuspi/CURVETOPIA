@@ -1,3 +1,12 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from PIL import Image
+import os
+import PIL
+import random
+import pickle
+import imageio.v2 as imageio
+
 # define acctivation function params
 tansig = lambda n: 2 / (1 + np.exp(-2 * n)) - 1
 sigmoid = lambda n: 1 / (1 + np.exp(-n))
@@ -262,8 +271,6 @@ class NeuralNet(Gene):
 
         self.fitness = 1 - error / len(training_data)
 
-import imageio.v2 as imageio
-
 def read_data(path):
     data = []
     for (dirpath, dirnames, filenames) in os.walk(path):
@@ -290,7 +297,7 @@ def train_ga(num_ga_epochs, num_sgd_epochs, vis_flag):
                           data=training_data,
                           targets=targets,
                           obj=NeuralNet,
-                          args=[img_len, 10, 4, 7])
+                          args=[img_len, 10, 4, 3])
 
     print("Creating population...")
     ga.populate(200)
@@ -337,12 +344,21 @@ def validate():
     print("Accuracy: " + str(accuracy))
 
 def predict(image_path):
-    img = np.ravel(imageio.imread(image_path, flatten=True))/255
+    img = Image.open(image_path).convert('L') 
+    img = img.resize((100, 100)) 
+    img = np.array(img).flatten()  
+    img = img / 255.0 
+    
     nn = NeuralNet([], build=False)
     nn.load("neuralnet.pkt")
+
     activations, zs = nn.feed_forward(img)
     print(targets[np.argmax(activations[-1])])
+
 
 targets = np.array(['circle', 'ellipse', 'rectangle', 'regularPolygon', 'roundedRectangle', 'star', 'straightLine'])
 train_ga(num_ga_epochs=10, num_sgd_epochs=5, vis_flag=1)
 validate()
+
+
+predict('test_image_path.png')
