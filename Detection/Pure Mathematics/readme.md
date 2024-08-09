@@ -1,0 +1,1 @@
+The code uses pure mathematical analysis to detect and count the shapes present, The best performing model up until now. 

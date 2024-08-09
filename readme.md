@@ -30,7 +30,7 @@ Developed a Python-based Bilateral Symmetry Detection System. Implemented keypoi
 ### 3. Detection Techniques
 
 - **Genetics:**
-  A hybrid Genetic Algorithm-Neural Network model for shape classification, utilizing custom activation functions and gradient-based optimization. Implemented mutation, crossover, and selection techniques in a population-based algorithm, it did not achieve significant reduction across epochs.
+  This approach combines a Genetic Algorithm (GA) with Neural Networks (NN) to detect 2D shapes in images, A hybrid Genetic Algorithm-Neural Network model for shape classification, utilizing custom activation functions and gradient-based optimization. Implemented mutation, crossover, and selection techniques in a population-based algorithm, it did not achieve significant reduction across epochs.
 
 - **Pure Mathematics:**
   Detect and classify various shapes in an image, such as circles, ellipses, rectangles, squares, regular polygons, rounded rectangles, stars, and straight lines. The process involves contour detection, shape classification based on geometric properties. **It works with overlapping image**.

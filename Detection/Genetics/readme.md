@@ -15,7 +15,7 @@ Run:
  - (It takes around 1 hour to run on `Dataset/Synthetic`, ie: for around 14000 image on cpu)
  Note : The model was run on cpu most of the time.
 
-4. Keep the image as `predict('path_to_image.png')`
+4. Keep the image in validate path
 
 Results: 
 The Results are in results.txt
