@@ -18,7 +18,8 @@ Email (Team Lead):
 adityar.ug22.ec@nitp.ac.in
 
 <hr>
-**Run** **bold text**
+
+**Run** 
 
 Just select `Runtime` and select `run all`.
 <hr>
