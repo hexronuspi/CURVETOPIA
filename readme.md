@@ -3,7 +3,10 @@
 This repository contains the codebase for **Adobe GenSolve 2024 Round 2**.
 
 
-This codebase can be visualised in colab : https://colab.research.google.com/drive/1dtSS-wcZi-1UJ5yARUKFxxfauVi0B3hm?usp=sharing
+This codebase can be visualised in colab : 
+
+1 . <a href = 'https://colab.research.google.com/drive/1dtSS-wcZi-1UJ5yARUKFxxfauVi0B3hm?usp=sharing'> Colab </a>
+2. Under `Adobe_GenSolve_Round_2.ipynb` 
 
 
 **Team:**
