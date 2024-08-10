@@ -19,6 +19,7 @@ Email (Team Lead):
 adityar.ug22.ec@nitp.ac.in
 
 ## Directory Structure 
+
 The project is organized into the following directories:
 - **Regularisation**
 - **Symmetry**
@@ -30,10 +31,12 @@ The project is organized into the following directories:
 
 
 ### 1. Shape Regularization
+
 Designed and implemented a Shape Regularization Pipeline in Python. Developed algorithms to classify and regularize geometric shapes polygons, rectangles, squares, circles, ellipses, and triangles, ensuring the shapes conform to predefined criteria. Employed advanced contour analysis techniques for shape detection and regularization, with visual outputs generated for original and regularized images. 
 
 
 ### 2. Symmetry Detection
+
 Developed a Python-based Bilateral Symmetry Detection System. Implemented keypoint detection using SIFT and descriptor matching with a Brute Force matcher to identify and visualize the symmetry axis in images. Processed and refined keypoint data through hexbin analysis and advanced mathematical transformations to calculate potential symmetry axes, resulting in an accurate symmetry line detection and visualization. 
 
 ### 3. Detection Techniques
@@ -48,4 +51,11 @@ Developed a Python-based Bilateral Symmetry Detection System. Implemented keypoi
   A shape detection and triangulation system using Python. The system accurately identifies and classifies geometric shapes such as triangles, rectangles, circles, ellipse, rectangle, polygons, and unknown shapes by analyzing contour properties like aspect ratios, convex hulls, and contour areas. Implemented custom algorithms to detect convex hulls and perform shape triangulation, enabling the precise visualization of detected shapes with annotated labels and triangulated segments. The edge detection and contour approximation techniques were optimized for high performance, allowing the system to handle large images efficiently, but it does not work with overlapping images.
 
 ### 4. Shape Completion
-The team is not able to do any seperate work on this part, but to some extent the **regularisation** section performs shape completion.
+
+Utilized numpy for data manipulation and scipy for spatial computations, including ConvexHull and Delaunay triangulation to complete shapes. Implemented Bézier curve fitting using sklearn's PolynomialFeatures and LinearRegression to generate smooth curves from point data. The script integrates Bézier curves, and completes shapes, providing shape completion.
+
+
+
+
+
+
