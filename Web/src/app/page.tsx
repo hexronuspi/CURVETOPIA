@@ -40,7 +40,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-             https://github.com/hexronuspi/CURVETOPIA
+             https://colab.research.google.com/drive/1dtSS-wcZi-1UJ5yARUKFxxfauVi0B3hm?usp=sharing
             </Link>
           </span>
             
