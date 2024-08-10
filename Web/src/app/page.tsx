@@ -32,6 +32,19 @@ export default function Home() {
           </span>
             
           </p>
+           <p className="mt-2">
+          Colab: <span>
+          <Link
+              href="https://colab.research.google.com/drive/1dtSS-wcZi-1UJ5yARUKFxxfauVi0B3hm?usp=sharing"
+              className="text-blue-500 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+             https://github.com/hexronuspi/CURVETOPIA
+            </Link>
+          </span>
+            
+          </p>
         </div>
       </header>
       <section className="flex justify-center">
