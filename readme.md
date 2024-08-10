@@ -10,8 +10,11 @@ This codebase can be visualised in colab :
 2. Under `Adobe_GenSolve_Round_2.ipynb`
 
 <hr>
-**Team:**
+
+**Team**:
+
 - **Sakshi Kumari**
+  
 - **Aditya Raj**  (Team Lead)
 
 Email (Team Lead): 
