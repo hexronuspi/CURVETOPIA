@@ -26,7 +26,7 @@ adityar.ug22.ec@nitp.ac.in
 
 1. Colab
 
-Download the `Adobe_GenSolve_Round_2.ipynb.ipynb` or visit the colab link and select `Runtime` and select `run all`.
+Download the `Adobe_GenSolve_Round_2.ipynb` or visit the colab link and select `Runtime` and select `run all`.
 
 2. Individual code base is present in the repository, downlaod and run from there.
    
