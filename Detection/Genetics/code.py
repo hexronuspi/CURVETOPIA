@@ -297,7 +297,7 @@ def train_ga(num_ga_epochs, num_sgd_epochs, vis_flag):
                           data=training_data,
                           targets=targets,
                           obj=NeuralNet,
-                          args=[img_len, 10, 4, 3])
+                          args=[img_len, 10, 4, 7])
 
     print("Creating population...")
     ga.populate(200)
