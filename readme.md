@@ -41,7 +41,8 @@ The project is organized into the following directories:
   - **Genetics**
   - **Pure Mathematics**
   - **Triangulation Method**
-- **Shape Completion** 
+- **Shape Completion**
+- **Web**
 
 
 ### 1. Shape Regularization
@@ -68,6 +69,9 @@ Developed a Python-based Bilateral Symmetry Detection System. Implemented keypoi
 
 Utilized numpy for data manipulation and scipy for spatial computations, including ConvexHull and Delaunay triangulation to complete shapes. Implemented Bézier curve fitting using sklearn's PolynomialFeatures and LinearRegression to generate smooth curves from point data. The script integrates Bézier curves, and completes shapes, providing shape completion.
 
+### 5. Web
+
+Contains Web Framework for Curvetopedia.
 
 <hr>
 
